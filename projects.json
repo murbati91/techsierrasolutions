@@ -1,7 +1,41 @@
 {
-  "version": "1.0.1",
-  "lastUpdated": "2026-01-14",
+  "version": "1.1.0",
+  "lastUpdated": "2026-01-18",
   "projects": [
+    {
+      "id": "kfm",
+      "title": "KFM Event Ticketing",
+      "url": "https://kfm.bahrain-ai.com",
+      "image": "/projects/kfm.png",
+      "description": "AI-powered event ticketing platform with QR codes and attendee management",
+      "category": "enterprise",
+      "tags": ["Next.js", "Supabase", "AI", "Ticketing"],
+      "status": "live",
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": "dscard",
+      "title": "DsCard Platform",
+      "url": "https://dscard.salahuddinss.com.bh",
+      "image": "/projects/dscard.png",
+      "description": "Digital business card platform with NFC support and analytics",
+      "category": "enterprise",
+      "tags": ["Next.js", "Supabase", "NFC", "QR Code"],
+      "status": "live",
+      "verified": true
+    },
+    {
+      "id": "ai-analytics",
+      "title": "AI Analytics Dashboard",
+      "url": "https://ai-analytics.bahrain-ai.com",
+      "image": "/projects/ai-analytics.png",
+      "description": "Business intelligence dashboard with AI-powered insights and reporting",
+      "category": "ai",
+      "tags": ["Next.js", "Analytics", "AI", "Charts"],
+      "status": "live",
+      "verified": true
+    },
     {
       "id": "plugins",
       "title": "AI Plugin System",
