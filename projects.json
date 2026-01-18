@@ -183,14 +183,14 @@
     {
       "id": "n8n",
       "title": "N8N Automation Hub",
-      "url": "https://n8n.murbati.ai",
+      "url": "https://n8n.bahrain-ai.com",
       "image": "/projects/n8n.png",
       "description": "Advanced workflow automation platform",
       "category": "automation",
       "tags": ["Node.js", "Automation", "API Integration"],
-      "status": "broken",
+      "status": "pending",
       "verified": false,
-      "notes": "Returns 404 - needs deployment"
+      "notes": "Pending deployment"
     },
     {
       "id": "deepsite",
@@ -213,17 +213,7 @@
     {
       "url": "https://menapool.com",
       "issue": "SSL error, redirects to non-existent Vercel deployment",
-      "action": "Fix DNS/SSL or use app.menapool.com only"
-    },
-    {
-      "url": "https://monitor.bahrain-ai.com",
-      "issue": "Returns 404",
-      "action": "Deploy monitoring service or remove link"
-    },
-    {
-      "url": "https://n8n.murbati.ai",
-      "issue": "Returns 404",
-      "action": "Deploy N8N instance or update to n8n.bahrain-ai.com"
+      "action": "Use app.menapool.com only - base domain deprecated"
     }
   ],
   "categories": {
