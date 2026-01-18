@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "lastUpdated": "2026-01-18",
   "projects": [
     {
@@ -150,7 +150,7 @@
     {
       "id": "search",
       "title": "SearXNG Search",
-      "url": "https://search.murbati.ai",
+      "url": "https://search.bahrain-ai.com",
       "image": "/projects/searxng.png",
       "description": "Privacy-focused metasearch engine",
       "category": "ai",
