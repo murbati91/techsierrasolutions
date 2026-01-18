@@ -1,13 +1,18 @@
 {
-  "name": "sss-portfolio",
-  "version": "1.0.0",
-  "description": "Salahuddin Softtech Solutions Portfolio",
+  "name": "techsierrasolutions",
+  "version": "1.1.0",
+  "description": "Tech Sierra Solutions - Elite Full-Stack Architecture & AI Solutions",
   "scripts": {
     "dev": "npx serve .",
     "build": "echo 'Static site - no build needed'",
-    "deploy": "vercel --prod"
+    "deploy": "rsync -avz --delete ./ root@104.248.23.145:/opt/tech-sierra-portfolio/"
   },
-  "keywords": ["portfolio", "sss", "salahuddin"],
-  "author": "Salahuddin Softtech Solutions",
-  "license": "MIT"
+  "keywords": ["portfolio", "techsierra", "ai", "full-stack"],
+  "author": "Tech Sierra Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murbati91/techsierrasolutions.git"
+  },
+  "homepage": "https://techsierrasolutions.com"
 }
