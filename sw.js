@@ -1,5 +1,5 @@
-const CACHE_NAME = 'sss-bahrain-ai-v1.4.0';
-const STATIC_CACHE = 'sss-static-v1.4.0';
+const CACHE_NAME = 'techsierra-v1.5.0';
+const STATIC_CACHE = 'techsierra-static-v1.5.0';
 
 const staticAssets = [
   '/',
@@ -9,7 +9,7 @@ const staticAssets = [
 
 // Install
 self.addEventListener('install', event => {
-  console.log('SSS PWA: Installing...');
+  console.log('TechSierra PWA: Installing...');
   event.waitUntil(
     caches.open(STATIC_CACHE)
       .then(cache => cache.addAll(staticAssets))
@@ -19,7 +19,7 @@ self.addEventListener('install', event => {
 
 // Activate
 self.addEventListener('activate', event => {
-  console.log('SSS PWA: Activating...');
+  console.log('TechSierra PWA: Activating...');
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
@@ -58,14 +58,14 @@ self.addEventListener('fetch', event => {
                 <!DOCTYPE html>
                 <html>
                 <head>
-                  <title>SSS - Offline</title>
+                  <title>TechSierra - Offline</title>
                   <style>
                     body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #0F172A; color: white; }
                     .logo { font-size: 2em; color: #3B82F6; margin-bottom: 20px; }
                   </style>
                 </head>
                 <body>
-                  <div class="logo">SSS</div>
+                  <div class="logo">TechSierra</div>
                   <h2>You're currently offline</h2>
                   <p>Please check your internet connection.</p>
                   <button onclick="window.location.reload()">Retry</button>
