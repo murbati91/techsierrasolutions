@@ -1,0 +1,12 @@
+{
+  "id": "kfm",
+  "title": "KFM Event Ticketing",
+  "url": "https://kfm.bahrain-ai.com",
+  "image": "kfm.png",
+  "description": "AI-powered event ticketing platform with QR codes and attendee management",
+  "category": "enterprise",
+  "tags": ["Next.js", "Supabase", "AI", "Ticketing"],
+  "status": "live",
+  "verified": true,
+  "featured": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "gcc",
+  "title": "GCC Business Hub",
+  "url": "https://gcc.bahrain-ai.com",
+  "image": "gcc.png",
+  "description": "Regional business networking and collaboration platform",
+  "category": "enterprise",
+  "tags": ["Next.js", "Business"],
+  "status": "live",
+  "verified": true,
+  "featured": false
+}

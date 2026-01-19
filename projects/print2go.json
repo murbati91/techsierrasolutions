@@ -1,0 +1,12 @@
+{
+  "id": "print2go",
+  "title": "Print2Go",
+  "url": "https://print2go.bahrain-ai.com",
+  "image": "print2go.svg",
+  "description": "Premium print-on-demand e-commerce platform with AI designer",
+  "category": "enterprise",
+  "tags": ["React", "TypeScript", "E-commerce", "AI Designer"],
+  "status": "live",
+  "verified": true,
+  "featured": false
+}

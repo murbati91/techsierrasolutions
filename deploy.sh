@@ -6,6 +6,8 @@
 #   push       - Git push only
 #   sync       - SCP sync only (no git)
 #   pull       - Git pull on server only
+#   build      - Build projects.json from individual project files
+#   build-push - Build projects.json, then full deploy
 
 set -e
 
@@ -15,6 +17,19 @@ REMOTE_PATH="/opt/tech-sierra-portfolio"
 echo "=========================================="
 echo "  TechSierra Solutions Deployment"
 echo "=========================================="
+
+# Function: Build projects.json from individual JSON files
+build_projects() {
+    echo "[BUILD] Building projects.json from individual files..."
+    if command -v node &> /dev/null; then
+        node build-projects.js
+        echo "Build complete!"
+    else
+        echo "ERROR: Node.js is required to build projects.json"
+        echo "Install Node.js or manually edit projects.json"
+        exit 1
+    fi
+}
 
 # Function: Git push to GitHub
 git_push() {
@@ -45,6 +60,14 @@ git_pull_server() {
 
 # Main logic
 case "${1:-full}" in
+    build)
+        build_projects
+        ;;
+    build-push)
+        build_projects
+        git_push
+        git_pull_server
+        ;;
     push)
         git_push
         ;;

@@ -1,0 +1,12 @@
+{
+  "id": "dscard",
+  "title": "DsCard Platform",
+  "url": "https://dscard.salahuddinss.com.bh",
+  "image": "dscard.png",
+  "description": "Digital business card platform with NFC support and analytics",
+  "category": "enterprise",
+  "tags": ["Next.js", "Supabase", "NFC", "QR Code"],
+  "status": "live",
+  "verified": true,
+  "featured": false
+}

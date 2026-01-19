@@ -1,0 +1,12 @@
+{
+  "id": "icc",
+  "title": "Infrastructure Control Center",
+  "url": "https://icc.bahrain-ai.com",
+  "image": "tss-dashboard.png",
+  "description": "Server monitoring and infrastructure management dashboard",
+  "category": "devops",
+  "tags": ["Next.js", "PM2", "Monitoring"],
+  "status": "auth_required",
+  "verified": true,
+  "featured": false
+}

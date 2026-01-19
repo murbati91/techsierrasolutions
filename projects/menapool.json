@@ -1,0 +1,12 @@
+{
+  "id": "menapool",
+  "title": "MenaPool Mining Platform",
+  "url": "https://app.menapool.com",
+  "image": "menapool.png",
+  "description": "Cryptocurrency mining pool supporting 15+ algorithms",
+  "category": "blockchain",
+  "tags": ["Node.js", "WebSocket", "Blockchain"],
+  "status": "live",
+  "verified": true,
+  "featured": false
+}

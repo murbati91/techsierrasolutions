@@ -1,0 +1,12 @@
+{
+  "id": "murbati",
+  "title": "Murbati Mobile",
+  "url": "https://m.bahrain-ai.com",
+  "image": "murbati-wallet.png",
+  "description": "Mobile-first web application",
+  "category": "mobile",
+  "tags": ["Mobile", "PWA"],
+  "status": "live",
+  "verified": true,
+  "featured": false
+}

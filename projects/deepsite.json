@@ -1,0 +1,12 @@
+{
+  "id": "deepsite",
+  "title": "DeepSite",
+  "url": "https://deepsite.bahrain-ai.com",
+  "image": "deepsite.png",
+  "description": "Deep web analytics platform",
+  "category": "ai",
+  "tags": ["Analytics", "AI"],
+  "status": "pending",
+  "verified": false,
+  "featured": false
+}

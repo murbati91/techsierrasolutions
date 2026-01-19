@@ -1,0 +1,12 @@
+{
+  "id": "plugins",
+  "title": "AI Plugin System",
+  "url": "https://plugins.bahrain-ai.com",
+  "image": "plugins.svg",
+  "description": "No-code AI integration platform - Add AI chatbots and lead capture to any website in 2 minutes",
+  "category": "ai",
+  "tags": ["GPT-4", "Claude", "WordPress", "Lead Gen", "No-Code"],
+  "status": "live",
+  "verified": true,
+  "featured": true
+}

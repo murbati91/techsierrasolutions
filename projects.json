@@ -1,7 +1,25 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-01-18",
+  "lastUpdated": "2026-01-19",
   "projects": [
+    {
+      "id": "plugins",
+      "title": "AI Plugin System",
+      "url": "https://plugins.bahrain-ai.com",
+      "image": "/projects/plugins.svg",
+      "description": "No-code AI integration platform - Add AI chatbots and lead capture to any website in 2 minutes",
+      "category": "ai",
+      "tags": [
+        "GPT-4",
+        "Claude",
+        "WordPress",
+        "Lead Gen",
+        "No-Code"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": true
+    },
     {
       "id": "kfm",
       "title": "KFM Event Ticketing",
@@ -9,21 +27,15 @@
       "image": "/projects/kfm.png",
       "description": "AI-powered event ticketing platform with QR codes and attendee management",
       "category": "enterprise",
-      "tags": ["Next.js", "Supabase", "AI", "Ticketing"],
+      "tags": [
+        "Next.js",
+        "Supabase",
+        "AI",
+        "Ticketing"
+      ],
       "status": "live",
       "verified": true,
       "featured": true
-    },
-    {
-      "id": "dscard",
-      "title": "DsCard Platform",
-      "url": "https://dscard.salahuddinss.com.bh",
-      "image": "/projects/dscard.png",
-      "description": "Digital business card platform with NFC support and analytics",
-      "category": "enterprise",
-      "tags": ["Next.js", "Supabase", "NFC", "QR Code"],
-      "status": "live",
-      "verified": true
     },
     {
       "id": "ai-analytics",
@@ -32,165 +44,15 @@
       "image": "/projects/ai-analytics.png",
       "description": "Business intelligence dashboard with AI-powered insights and reporting",
       "category": "ai",
-      "tags": ["Next.js", "Analytics", "AI", "Charts"],
-      "status": "live",
-      "verified": true
-    },
-    {
-      "id": "plugins",
-      "title": "AI Plugin System",
-      "url": "https://plugins.bahrain-ai.com",
-      "image": "/projects/plugins.svg",
-      "description": "No-code AI integration platform - Add AI chatbots and lead capture to any website in 2 minutes",
-      "category": "ai",
-      "tags": ["GPT-4", "Claude", "WordPress", "Lead Gen", "No-Code"],
+      "tags": [
+        "Next.js",
+        "Analytics",
+        "AI",
+        "Charts"
+      ],
       "status": "live",
       "verified": true,
-      "featured": true
-    },
-    {
-      "id": "print2go",
-      "title": "Print2Go",
-      "url": "https://print2go.bahrain-ai.com",
-      "image": "/projects/print2go.svg",
-      "description": "Premium print-on-demand e-commerce platform with AI designer",
-      "category": "enterprise",
-      "tags": ["React", "TypeScript", "E-commerce", "AI Designer"],
-      "status": "live",
-      "verified": true
-    },
-    {
-      "id": "charter",
-      "title": "Gulf Charter AI",
-      "url": "https://charter.bahrain-ai.com",
-      "image": "/projects/charter.png",
-      "description": "Bilingual Arabic/English ethical guidance platform for GCC Social Workers Association",
-      "category": "ai",
-      "tags": ["LangChain", "Node.js", "Arabic/English"],
-      "status": "live",
-      "verified": true
-    },
-    {
-      "id": "erp",
-      "title": "Vanguard GovTech ERP",
-      "url": "https://erp.bahrain-ai.com",
-      "image": "/projects/erp.png",
-      "description": "Government technology dashboard for digital transformation initiatives",
-      "category": "enterprise",
-      "tags": ["React", "Node.js", "PostgreSQL"],
-      "status": "live",
-      "verified": true
-    },
-    {
-      "id": "gcc",
-      "title": "GCC Business Hub",
-      "url": "https://gcc.bahrain-ai.com",
-      "image": "/projects/gcc.png",
-      "description": "Regional business networking and collaboration platform",
-      "category": "enterprise",
-      "tags": ["Next.js", "Business"],
-      "status": "live",
-      "verified": true
-    },
-    {
-      "id": "geopoint",
-      "title": "Geopoint Analytics",
-      "url": "https://geopoint.bahrain-ai.com",
-      "image": "/projects/geopoint.png",
-      "description": "Location-based analytics and mapping platform",
-      "category": "platforms",
-      "tags": ["Maps", "Analytics", "GIS"],
-      "status": "auth_required",
-      "verified": true
-    },
-    {
-      "id": "icc",
-      "title": "Infrastructure Control Center",
-      "url": "https://icc.bahrain-ai.com",
-      "image": "/projects/tss-dashboard.png",
-      "description": "Server monitoring and infrastructure management dashboard",
-      "category": "devops",
-      "tags": ["Next.js", "PM2", "Monitoring"],
-      "status": "auth_required",
-      "verified": true
-    },
-    {
-      "id": "laterb",
-      "title": "LaterB Platform",
-      "url": "https://laterb.bahrain-ai.com",
-      "image": "/projects/laterb.png",
-      "description": "Social scheduling and content management",
-      "category": "platforms",
-      "tags": ["Social Media", "Scheduling"],
-      "status": "live",
-      "verified": true
-    },
-    {
-      "id": "murbati",
-      "title": "Murbati Mobile",
-      "url": "https://m.bahrain-ai.com",
-      "image": "/projects/murbati-wallet.png",
-      "description": "Mobile-first web application",
-      "category": "mobile",
-      "tags": ["Mobile", "PWA"],
-      "status": "live",
-      "verified": true
-    },
-    {
-      "id": "menapool",
-      "title": "MenaPool Mining Platform",
-      "url": "https://app.menapool.com",
-      "image": "/projects/menapool.png",
-      "description": "Cryptocurrency mining pool supporting 15+ algorithms",
-      "category": "blockchain",
-      "tags": ["Node.js", "WebSocket", "Blockchain"],
-      "status": "live",
-      "verified": true
-    },
-    {
-      "id": "search",
-      "title": "SearXNG Search",
-      "url": "https://search.bahrain-ai.com",
-      "image": "/projects/searxng.png",
-      "description": "Privacy-focused metasearch engine",
-      "category": "ai",
-      "tags": ["Python", "Search", "Privacy"],
-      "status": "live",
-      "verified": true
-    },
-    {
-      "id": "studio",
-      "title": "Studio Bahrain AI",
-      "url": "https://studio.bahrain-ai.com",
-      "image": "/projects/studio-bahrain-ai.png",
-      "description": "Advanced AI application builder - Transform any idea into a working app",
-      "category": "ai",
-      "tags": ["AI Builder", "Claude", "No-Code"],
-      "status": "auth_required",
-      "verified": true
-    },
-    {
-      "id": "webbuilder",
-      "title": "Web Builder",
-      "url": "https://webbuilder.bahrain-ai.com",
-      "image": "/projects/webbuilder.png",
-      "description": "Visual website builder with drag-and-drop interface",
-      "category": "platforms",
-      "tags": ["Next.js", "Builder", "No-Code"],
-      "status": "auth_required",
-      "verified": true
-    },
-    {
-      "id": "n8n",
-      "title": "N8N Automation Hub",
-      "url": "https://n8n.bahrain-ai.com",
-      "image": "/projects/n8n.png",
-      "description": "Advanced workflow automation platform",
-      "category": "automation",
-      "tags": ["Node.js", "Automation", "API Integration"],
-      "status": "pending",
-      "verified": false,
-      "notes": "Pending deployment"
+      "featured": false
     },
     {
       "id": "deepsite",
@@ -199,9 +61,237 @@
       "image": "/projects/deepsite.png",
       "description": "Deep web analytics platform",
       "category": "ai",
-      "tags": ["Analytics", "AI"],
+      "tags": [
+        "Analytics",
+        "AI"
+      ],
       "status": "pending",
-      "verified": false
+      "verified": false,
+      "featured": false
+    },
+    {
+      "id": "charter",
+      "title": "Gulf Charter AI",
+      "url": "https://charter.bahrain-ai.com",
+      "image": "/projects/charter.png",
+      "description": "Bilingual Arabic/English ethical guidance platform for GCC Social Workers Association",
+      "category": "ai",
+      "tags": [
+        "LangChain",
+        "Node.js",
+        "Arabic/English"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "search",
+      "title": "SearXNG Search",
+      "url": "https://search.bahrain-ai.com",
+      "image": "/projects/searxng.png",
+      "description": "Privacy-focused metasearch engine",
+      "category": "ai",
+      "tags": [
+        "Python",
+        "Search",
+        "Privacy"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "studio",
+      "title": "Studio Bahrain AI",
+      "url": "https://studio.bahrain-ai.com",
+      "image": "/projects/studio-bahrain-ai.png",
+      "description": "Advanced AI application builder - Transform any idea into a working app",
+      "category": "ai",
+      "tags": [
+        "AI Builder",
+        "Claude",
+        "No-Code"
+      ],
+      "status": "auth_required",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "n8n",
+      "title": "N8N Automation Hub",
+      "url": "https://n8n.bahrain-ai.com",
+      "image": "/projects/n8n.png",
+      "description": "Advanced workflow automation platform",
+      "category": "automation",
+      "tags": [
+        "Node.js",
+        "Automation",
+        "API Integration"
+      ],
+      "status": "pending",
+      "verified": false,
+      "featured": false,
+      "notes": "Pending deployment"
+    },
+    {
+      "id": "menapool",
+      "title": "MenaPool Mining Platform",
+      "url": "https://app.menapool.com",
+      "image": "/projects/menapool.png",
+      "description": "Cryptocurrency mining pool supporting 15+ algorithms",
+      "category": "blockchain",
+      "tags": [
+        "Node.js",
+        "WebSocket",
+        "Blockchain"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "icc",
+      "title": "Infrastructure Control Center",
+      "url": "https://icc.bahrain-ai.com",
+      "image": "/projects/tss-dashboard.png",
+      "description": "Server monitoring and infrastructure management dashboard",
+      "category": "devops",
+      "tags": [
+        "Next.js",
+        "PM2",
+        "Monitoring"
+      ],
+      "status": "auth_required",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "dscard",
+      "title": "DsCard Platform",
+      "url": "https://dscard.salahuddinss.com.bh",
+      "image": "/projects/dscard.png",
+      "description": "Digital business card platform with NFC support and analytics",
+      "category": "enterprise",
+      "tags": [
+        "Next.js",
+        "Supabase",
+        "NFC",
+        "QR Code"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "gcc",
+      "title": "GCC Business Hub",
+      "url": "https://gcc.bahrain-ai.com",
+      "image": "/projects/gcc.png",
+      "description": "Regional business networking and collaboration platform",
+      "category": "enterprise",
+      "tags": [
+        "Next.js",
+        "Business"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "print2go",
+      "title": "Print2Go",
+      "url": "https://print2go.bahrain-ai.com",
+      "image": "/projects/print2go.svg",
+      "description": "Premium print-on-demand e-commerce platform with AI designer",
+      "category": "enterprise",
+      "tags": [
+        "React",
+        "TypeScript",
+        "E-commerce",
+        "AI Designer"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "erp",
+      "title": "Vanguard GovTech ERP",
+      "url": "https://erp.bahrain-ai.com",
+      "image": "/projects/erp.png",
+      "description": "Government technology dashboard for digital transformation initiatives",
+      "category": "enterprise",
+      "tags": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "murbati",
+      "title": "Murbati Mobile",
+      "url": "https://m.bahrain-ai.com",
+      "image": "/projects/murbati-wallet.png",
+      "description": "Mobile-first web application",
+      "category": "mobile",
+      "tags": [
+        "Mobile",
+        "PWA"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "geopoint",
+      "title": "Geopoint Analytics",
+      "url": "https://geopoint.bahrain-ai.com",
+      "image": "/projects/geopoint.png",
+      "description": "Location-based analytics and mapping platform",
+      "category": "platforms",
+      "tags": [
+        "Maps",
+        "Analytics",
+        "GIS"
+      ],
+      "status": "auth_required",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "laterb",
+      "title": "LaterB Platform",
+      "url": "https://laterb.bahrain-ai.com",
+      "image": "/projects/laterb.png",
+      "description": "Social scheduling and content management",
+      "category": "platforms",
+      "tags": [
+        "Social Media",
+        "Scheduling"
+      ],
+      "status": "live",
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "webbuilder",
+      "title": "Web Builder",
+      "url": "https://webbuilder.bahrain-ai.com",
+      "image": "/projects/webbuilder.png",
+      "description": "Visual website builder with drag-and-drop interface",
+      "category": "platforms",
+      "tags": [
+        "Next.js",
+        "Builder",
+        "No-Code"
+      ],
+      "status": "auth_required",
+      "verified": true,
+      "featured": false
     }
   ],
   "brokenLinks": [

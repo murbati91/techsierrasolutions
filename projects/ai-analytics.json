@@ -1,0 +1,12 @@
+{
+  "id": "ai-analytics",
+  "title": "AI Analytics Dashboard",
+  "url": "https://ai-analytics.bahrain-ai.com",
+  "image": "ai-analytics.png",
+  "description": "Business intelligence dashboard with AI-powered insights and reporting",
+  "category": "ai",
+  "tags": ["Next.js", "Analytics", "AI", "Charts"],
+  "status": "live",
+  "verified": true,
+  "featured": false
+}

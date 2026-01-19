@@ -1,0 +1,13 @@
+{
+  "id": "n8n",
+  "title": "N8N Automation Hub",
+  "url": "https://n8n.bahrain-ai.com",
+  "image": "n8n.png",
+  "description": "Advanced workflow automation platform",
+  "category": "automation",
+  "tags": ["Node.js", "Automation", "API Integration"],
+  "status": "pending",
+  "verified": false,
+  "featured": false,
+  "notes": "Pending deployment"
+}

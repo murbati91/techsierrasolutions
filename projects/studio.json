@@ -1,0 +1,12 @@
+{
+  "id": "studio",
+  "title": "Studio Bahrain AI",
+  "url": "https://studio.bahrain-ai.com",
+  "image": "studio-bahrain-ai.png",
+  "description": "Advanced AI application builder - Transform any idea into a working app",
+  "category": "ai",
+  "tags": ["AI Builder", "Claude", "No-Code"],
+  "status": "auth_required",
+  "verified": true,
+  "featured": false
+}

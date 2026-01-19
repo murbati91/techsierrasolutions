@@ -1,0 +1,12 @@
+{
+  "id": "webbuilder",
+  "title": "Web Builder",
+  "url": "https://webbuilder.bahrain-ai.com",
+  "image": "webbuilder.png",
+  "description": "Visual website builder with drag-and-drop interface",
+  "category": "platforms",
+  "tags": ["Next.js", "Builder", "No-Code"],
+  "status": "auth_required",
+  "verified": true,
+  "featured": false
+}

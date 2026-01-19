@@ -1,0 +1,12 @@
+{
+  "id": "search",
+  "title": "SearXNG Search",
+  "url": "https://search.bahrain-ai.com",
+  "image": "searxng.png",
+  "description": "Privacy-focused metasearch engine",
+  "category": "ai",
+  "tags": ["Python", "Search", "Privacy"],
+  "status": "live",
+  "verified": true,
+  "featured": false
+}

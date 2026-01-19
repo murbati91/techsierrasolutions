@@ -1,0 +1,12 @@
+{
+  "id": "charter",
+  "title": "Gulf Charter AI",
+  "url": "https://charter.bahrain-ai.com",
+  "image": "charter.png",
+  "description": "Bilingual Arabic/English ethical guidance platform for GCC Social Workers Association",
+  "category": "ai",
+  "tags": ["LangChain", "Node.js", "Arabic/English"],
+  "status": "live",
+  "verified": true,
+  "featured": false
+}

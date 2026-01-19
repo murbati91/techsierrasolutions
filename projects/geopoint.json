@@ -1,0 +1,12 @@
+{
+  "id": "geopoint",
+  "title": "Geopoint Analytics",
+  "url": "https://geopoint.bahrain-ai.com",
+  "image": "geopoint.png",
+  "description": "Location-based analytics and mapping platform",
+  "category": "platforms",
+  "tags": ["Maps", "Analytics", "GIS"],
+  "status": "auth_required",
+  "verified": true,
+  "featured": false
+}

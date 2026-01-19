@@ -1,0 +1,12 @@
+{
+  "id": "erp",
+  "title": "Vanguard GovTech ERP",
+  "url": "https://erp.bahrain-ai.com",
+  "image": "erp.png",
+  "description": "Government technology dashboard for digital transformation initiatives",
+  "category": "enterprise",
+  "tags": ["React", "Node.js", "PostgreSQL"],
+  "status": "live",
+  "verified": true,
+  "featured": false
+}
