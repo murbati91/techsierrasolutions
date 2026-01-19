@@ -11,7 +11,6 @@ set -e
 
 SERVER="root@104.248.23.145"
 REMOTE_PATH="/opt/tech-sierra-portfolio"
-LOCAL_PATH="."
 
 echo "=========================================="
 echo "  TechSierra Solutions Deployment"
@@ -26,20 +25,18 @@ git_push() {
     echo "GitHub push complete!"
 }
 
-# Function: Sync files to server
+# Function: Sync files to server using SCP
 sync_to_server() {
     echo "[2/2] Syncing to server..."
-    rsync -avz --delete \
-        --exclude '.git' \
-        --exclude '.claude' \
-        --exclude 'node_modules' \
-        --exclude '*.bak*' \
-        --exclude 'nul' \
-        "$LOCAL_PATH/" "$SERVER:$REMOTE_PATH/"
+    # Upload key files - add more as needed
+    scp -r index.html projects.html projects.json sw.js manifest.json \
+        assets/ projects/ videos/ \
+        tss-*.png tss-*.svg favicon.* icon-*.png apple-touch-*.png \
+        "$SERVER:$REMOTE_PATH/"
     echo "Server sync complete!"
 }
 
-# Function: Git pull on server
+# Function: Git pull on server (cleanest method)
 git_pull_server() {
     echo "Pulling latest from GitHub on server..."
     ssh $SERVER "cd $REMOTE_PATH && git pull origin master"
@@ -59,7 +56,7 @@ case "${1:-full}" in
         ;;
     full|*)
         git_push
-        sync_to_server
+        git_pull_server
         ;;
 esac
 
