@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <defs>
+    <linearGradient id="bg-384" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2d4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#152238;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="384" height="384" fill="url(#bg-384)"/>
+
+  <!-- Mountains -->
+  <g transform="translate(192, 220) scale(1.4)">
+    <path d="M 0,-40 L -30,20 L 30,20 Z" fill="white"/>
+    <path d="M 0,-40 L -15,0 L 15,0 Z" fill="#4dd0e1"/>
+    <path d="M -45,-25 L -75,20 L -15,20 Z" fill="white" opacity="0.9"/>
+    <path d="M 45,-25 L 15,20 L 75,20 Z" fill="white" opacity="0.9"/>
+  </g>
+
+  <!-- Text: TechSierra -->
+  <text x="192" y="300" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">
+    TechSierra
+  </text>
+</svg>
