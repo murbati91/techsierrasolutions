@@ -65,7 +65,7 @@ techsierrasolutions/
 ./deploy.sh
 
 # OR manually
-ssh root@104.248.23.145 "cd /opt/tech-sierra-portfolio && git pull origin master"
+ssh root@xxxxxx "cd /opt/tech-sierra-portfolio && git pull origin master"
 ```
 
 ### Local Development
@@ -85,7 +85,7 @@ npx serve .
 
 ## Infrastructure
 
-- **Server**: Digital Ocean (104.248.23.145)
+- **Server**: Digital Ocean (xxxxxxxxx)
 - **CDN**: Cloudflare (Full strict SSL)
 - **Web Server**: Nginx
 - **SSL**: Let's Encrypt (expires 2026-04-18)
